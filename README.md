@@ -11,5 +11,5 @@ to add a website to the blocked list (same shell as to where server is running -
 to make the server run on boot, you'll need crontab
 `crontab -e`
 
-`@reboot /usr/bin/node /path/to/yourscript.js`\
+`@reboot /usr/bin/node /path/to/server.js`\
 ^ **/opt/homebrew/bin/** for apple silicon (homebrew thing iirc)
