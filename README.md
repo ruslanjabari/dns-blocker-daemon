@@ -1,6 +1,6 @@
 # dns-blocker-daemon
 
-install packages (really just native-dns):\
+install packages (really just *native-dns*):\
 `npm i`
 
 `node server.js` to start the server
@@ -12,4 +12,4 @@ to make the server run on boot, you'll need crontab
 `crontab -e`
 
 `@reboot /usr/bin/node /path/to/yourscript.js`\
-^ /opt/homebrew/bin/ for apple silicon (homebrew thing iirc)
+^ **/opt/homebrew/bin/** for apple silicon (homebrew thing iirc)
